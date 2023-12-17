@@ -39,7 +39,11 @@ git commit -m   // 第一次上传文件
 
 git branch   查看本地分支
 
-git remote add origin https://github.com/sunshinebutterfly/vue-mini.git
+git remote add origin "你的仓库地址"
+
+git remote -v  查看现有远程仓库信息
+
+git remote rm origin   删除现有仓库信息
 
 git push -u origin 分支
 ```
