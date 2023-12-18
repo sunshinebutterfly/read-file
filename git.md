@@ -4,7 +4,7 @@
 
 
 
-创建.gitignore
+###### 创建.gitignore
 
 
 
@@ -18,7 +18,7 @@ node_modules
 
 
 
-git 命令
+###### git常用命令
 
 
 
@@ -35,7 +35,7 @@ git log --author="XXXX"  查看单一用户
 
 git status     查看当前项目改动
 
-git commit -m   // 第一次上传文件
+git commit -m   // 将代码提交到版本仓库
 
 git branch   查看本地分支
 
@@ -45,6 +45,6 @@ git remote -v  查看现有远程仓库信息
 
 git remote rm origin   删除现有仓库信息
 
-git push -u origin 分支
+git push -u origin 分支   //提交远程仓库
 ```
 
